@@ -1,0 +1,30 @@
+{
+  "name": "php-zap/zap-http",
+  "description": "The Zap Http component.",
+  "keywords": ["http", "zap"],
+  "license": "MIT",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Gabor Zelei",
+      "email": "gabor.zelei@gmail.com"
+    },
+    {
+      "name": "Antonio Lopez",
+      "email": "antonio.lopez.zapata@gmail.com"
+    }
+  ],
+  "require" : {
+    "php" : ">=7.0.0",
+    "php-zap/zap-common": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Zap\\Http\\": "src/",
+      "Test\\": "tests/"
+    }
+  }
+}
